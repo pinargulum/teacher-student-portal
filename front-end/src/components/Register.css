@@ -1,0 +1,26 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-top: 0;
+}
+.register-container form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0 auto;
+}
+
+.register-container input {
+  width: 260px;
+  height: 50px;
+  border-radius: 8px;
+  border-color: darkgray;
+  box-shadow: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 0 20px;
+  font-size: 20px;
+}

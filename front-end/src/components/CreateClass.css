@@ -1,0 +1,31 @@
+.page-container {
+  width: 400px;
+  font-size: 25px;
+}
+.page-container-back-button {
+  display: flex;
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  height: 40px;
+  font-size: 14px;
+  color: black;
+ 
+  box-shadow: rgba(0, 0, 0, 0.4);
+}
+.page-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.page-container form input {
+  height: 40px;
+  flex-direction: row;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: darkgray;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+

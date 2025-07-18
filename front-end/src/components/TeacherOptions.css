@@ -1,0 +1,26 @@
+.options button {
+  display: block;
+  margin: 2rem auto;
+  cursor: pointer;
+  width: 250px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  border-color: darkgray;
+ 
+}
+.page-logout {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 80px;
+  left: 100px;
+  width: 90px;
+  height: 30px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  border-color: darkgray;
+  box-shadow: rgba(0, 0, 0, 0.6);
+  padding: 15px 0;
+}

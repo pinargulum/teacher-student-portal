@@ -1,0 +1,15 @@
+.main-container {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    color: black;
+}
+.main-container h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 900;
+    width: 100%;
+}
+.main-container button {
+    margin: 20px;
+}
