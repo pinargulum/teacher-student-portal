@@ -20,6 +20,6 @@ app.use(express.json());
 
 app.use("/", mainRouter);
 
-app.listen(PORT, () => {
-  console.log(`server is running on port ${PORT}`);
+app.listen(process.env.PORT || 3001, () => {
+  console.log("server is running");
 });
