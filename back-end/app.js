@@ -19,9 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/", mainRouter);
-app.get('/', (req, res) => {
-  res.send('Teacher-Student API is running! 🧑‍🏫👩‍🎓');
-});
+
 
 app.listen(process.env.PORT || 3001, () => {
   console.log("server is running");
