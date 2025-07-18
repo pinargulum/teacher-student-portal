@@ -1,5 +1,5 @@
 🎓 School Role Management App
-A full-stack application built as part of a school capstone project. This app manages two user roles — Teacher and Student — with features designed for each role.
+A full-stack application built to manage two user roles — Teacher and Student — with features designed for each role.
 
 🚀 Features
 
