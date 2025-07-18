@@ -3,7 +3,7 @@ A full-stack application built to manage two user roles — Teacher and Student 
 
 🚀 Features
 
-👩‍🏫 Teacher Role
+👩‍🏫 Teacher Role (Access code: 123)
 
 View and manage student data
 
@@ -11,7 +11,7 @@ Upload and manage assignments
 
 Create class schedules
 
-🎓 Student Role
+🎓 Student Role(Access code: 456)
 
 View personal profile
 
