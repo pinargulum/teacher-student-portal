@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../components/Login.css";
 import { Route, useNavigate } from "react-router-dom";
-import axios from "axios";
+import instance from "./api/axiosInstance.js";
 function Login() {
   const navigate = useNavigate();
 
@@ -21,7 +21,7 @@ function Login() {
     e.preventDefault();
     //const token = localStorage.getItem("token")
     try {
-      const res = await axios.post("http://localhost:3001/signin", formData);
+      const res = await instance.post("/signin", formData);
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("user", JSON.stringify({ role: res.data.role}))
       console.log("Success:", res.data);

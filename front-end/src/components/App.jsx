@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+
 import UserRole from "./UserRole.jsx";
 import TeacherOptions from "./TeacherOptions.jsx";
 import CreateClass from "./CreateClass.jsx";
@@ -12,7 +14,12 @@ import Main from "./Main.jsx";
 import ProtectedRoute from "./ProtectedRoute.jsx";
 import "./App.css";
 
+
+
+
 function App() {
+  
+
   return (
     <Routes>
       <Route

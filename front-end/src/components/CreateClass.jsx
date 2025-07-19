@@ -6,18 +6,6 @@ import axios from "axios";
 const CreateClass = () => {
   const token = localStorage.getItem("token");
 
-  axios
-    .get("http://localhost:3001/trainer-options", {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    })
-    .then((res) => {
-      console.log(res.data);
-    })
-    .catch((err) => {
-      console.error(err);
-    });
   const navigate = useNavigate();
   const [classData, setClassData] = useState({
     className: "",
