@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../components/Register.css";
-import axios from "axios";
+//import axios from "axios";
+import api from "../api/axiosInstance"
 import { Route, useNavigate } from "react-router-dom";
 function Register() {
   const navigate = useNavigate();
@@ -24,7 +25,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:3001/signup", formData);
+      const res = await api.post("/signup", formData);
       console.log("Success:", res.data);
       alert("User registered successfully!");
       navigate("/signin");
