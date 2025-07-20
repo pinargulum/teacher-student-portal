@@ -14,12 +14,7 @@ import Main from "./Main.jsx";
 import ProtectedRoute from "./ProtectedRoute.jsx";
 import "./App.css";
 
-
-
-
 function App() {
-  
-
   return (
     <Routes>
       <Route

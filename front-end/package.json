@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://teacher-student-portal-production-01ea.up.railway.app/",
+  "homepage": "https://teacher-student-portal-production-01ea.up.railway.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
