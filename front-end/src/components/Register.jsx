@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../components/Register.css";
 import axios from "axios";
 import { Route, useNavigate } from "react-router-dom";
-import instance from "../components/api/axiosInstance";
+import instance from "./api/axiosInstance";
 function Register() {
   const navigate = useNavigate();
 
@@ -25,7 +25,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const res = await instance.post("/signup", formData);
+      const res = await axios.post("https://teacher-student-api.up.railway.app/signup", formData);
       console.log("Success:", res.data);
       alert("User registered successfully!");
       navigate("/signin");

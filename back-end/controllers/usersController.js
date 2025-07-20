@@ -2,7 +2,7 @@ const express = require("express");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const User = require("../models/users");
-const { JWT_SECRET } = require("../utils/config");
+const JWT_SECRET  = require("../utils/config");
 
 function getRoleByAccessCode(code) {
   if (code === "123") return "teacher";

@@ -1,8 +1,7 @@
 import "../components/TeacherOptions.css";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import instance from "../components/api/axiosInstance";
-
+import instance from "./api/axiosInstance";
 const TeacherOptions = () => {
   const navigate = useNavigate();
  
