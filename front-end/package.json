@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pinargulum.github.io/teacher-student-portal",
+  "homepage": "https://teacher-student-portal-production-0c4d.up.railway.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
